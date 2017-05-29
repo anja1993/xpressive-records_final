@@ -1,0 +1,48 @@
+#mid {
+    background: #7CC7EB;
+    border: solid;
+    border-width: thick;
+    border-color: #F09E39;
+    border-radius: 5px;
+    height: 70vh;
+}
+
+#mid h1, #mid p, .affiche {
+    width: 45%;
+}
+
+#mid p  {
+    float:left;
+}
+
+.affiche {
+    float: right;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 1250px) {
+    #mid {
+        background: #7CC7EB;
+        border: solid;
+        border-width: thick;
+        border-color: #F09E39;
+        border-radius: 5px;
+        height: 75vh;
+    }
+    #mid h1, #mid p, .affiche {
+        width: 95%;
+    }
+    
+    .affiche {
+        margin: 5px;
+        height: 35vh;
+        
+        float: left;
+    }
+    
+    #mid h1, #mid p, .affiche {
+    margin: 5px;
+}
+
+}
